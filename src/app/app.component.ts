@@ -9,5 +9,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
+  //this is a var
   title = 'My-First-Project-New';
+  assignment1:String = "Created Starter Angular file and completed Assignment 1"
+  assignment1Var:Number = 23;
 }
